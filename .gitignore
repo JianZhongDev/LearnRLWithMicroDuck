@@ -1,0 +1,18 @@
+# Local course environment (created by setup): paths, caches, self-test output
+.course/
+.venv/
+
+
+# Lab results and other generated run output (reproduce with the lab command)
+results/
+verification/
+
+# Python / OS noise
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Agent-local state
+.claude/settings.local.json
+.codex/

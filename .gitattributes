@@ -1,0 +1,10 @@
+# Shell scripts must keep LF endings: they run inside WSL/Linux/macOS even when
+# the repository is checked out on Windows.
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.env text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.gif binary
